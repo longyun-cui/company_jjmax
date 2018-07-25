@@ -13,7 +13,9 @@
                     <div class="probootstrap-block-image">
                         <figure class="image-block">
                             <a href="{{ url('/service/'.$v->id) }}">
-                                <img src="{{ config('common.host.'.env('APP_ENV').'.cdn').'/'.$v->cover_pic }}" alt="Image">
+                                <div class="image-container">
+                                    <img src="{{ config('common.host.'.env('APP_ENV').'.cdn').'/'.$v->cover_pic }}" alt="Image">
+                                </div>
                             </a>
                         </figure>
                         <div class="text">

@@ -15,7 +15,9 @@
             @foreach($cases as $v)
                 <div class="col-md-4 col-sm-6">
                     <a href="{{ url('/case/'.$v->id) }}" class="probootstrap-hover-overlay image-block">
-                        <img src="{{ config('common.host.'.env('APP_ENV').'.cdn').'/'.$v->cover_pic }}" alt="Image" class="img-responsive">
+                        <div class="image-container">
+                            <img src="{{ config('common.host.'.env('APP_ENV').'.cdn').'/'.$v->cover_pic }}" alt="Image" class="img-responsive">
+                        </div>
                         <div class="probootstrap-text-overlay">
                             <h3>{{ $v->title or '' }}</h3>
                             <p>{{ $v->subtitle or '' }}</p>

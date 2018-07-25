@@ -12,8 +12,8 @@
             ],
 
             'online' => [
-                'root' => 'http://age21.date',
-                'cdn' => 'http://cdn.age21.date',
+                'root' => 'http://live8.pub',
+                'cdn' => 'http://cdn.live8.pub',
             ],
 
             'front' => [

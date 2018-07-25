@@ -42,7 +42,7 @@ class IndexRepository {
             $item->custom2 = json_decode($item->custom2);
             $item->custom3 = json_decode($item->custom3);
         }
-        $cases = RootItem::where(['category'=>12, 'active'=>1])->orderby('id', 'desc')->limit(3)->get();
+        $cases = RootItem::where(['category'=>12, 'active'=>1])->orderby('id', 'desc')->limit(6)->get();
         $coverages = RootItem::where(['category'=>21, 'active'=>1])->orderby('id', 'desc')->limit(6)->get();
 
         $html = view('frontend.template-2933.entrance.root')

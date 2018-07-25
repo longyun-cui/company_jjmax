@@ -15,7 +15,7 @@
                 <li class="{{ $header_service_active or '' }}"><a href="{{ url('/services') }}">服务产品</a></li>
                 <li class="{{ $header_case_active or '' }}"><a href="{{ url('/cases') }}">案例分享</a></li>
                 <li class="{{ $header_coverage_active or '' }}"><a href="{{ url('/coverages') }}">新闻动态</a></li>
-                <li class="{{ $header_about_active or '' }}"><a href="{{ url('/about') }}">关于我们</a></li>
+                {{--<li class="{{ $header_about_active or '' }}"><a href="{{ url('/about') }}">关于我们</a></li>--}}
                 <li class="{{ $header_contact_active or '' }}"><a href="{{ url('/contact') }}">联系我们</a></li>
             </ul>
             <div class="extra-text visible-xs">

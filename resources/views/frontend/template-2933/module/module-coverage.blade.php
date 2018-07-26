@@ -1,5 +1,5 @@
 {{--<!-- START: module-coverage -->--}}
-<section class="probootstrap-section " id="next-section">
+<section class="probootstrap-section " id="coverage-section">
 
     <div class="container">
         <div class="row">
@@ -18,7 +18,7 @@
                     <ul class="probootstrap-product-list">
 
                         @foreach($coverages as $v)
-                            <div class="col-md-4 col-sm-6">
+                            <div class="col-md-4 col-sm-6 coverage-item">
                                 <li class="mb20">
                                     <a href="{{ url('/coverage/'.$v->id) }}">
                                         <figure class="image-block--">

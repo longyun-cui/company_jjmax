@@ -1,5 +1,5 @@
 {{--<!-- START: module-service -->--}}
-<section class="probootstrap-section probootstrap-section-colored-">
+<section class="probootstrap-section probootstrap-section-colored-" id="service-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 mb70 section-heading probootstrap-animate">
@@ -9,7 +9,7 @@
         </div>
         <div class="row mb70">
             @foreach($services as $v)
-                <div class="col-md-4 col-sm-6 probootstrap-animate">
+                <div class="col-md-4 col-sm-6 probootstrap-animate service-item">
                     <div class="probootstrap-block-image">
                         <figure class="image-block">
                             <a href="{{ url('/service/'.$v->id) }}">

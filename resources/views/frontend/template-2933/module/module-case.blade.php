@@ -1,5 +1,5 @@
 {{--<!-- START: module-case -->--}}
-<section class="probootstrap-section @if($cases_type == 'root') probootstrap-section-colored @endif" id="next-section">
+<section class="probootstrap-section @if($cases_type == 'root') probootstrap-section-colored @endif" id="case-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 mb70 section-heading probootstrap-animate">
@@ -13,7 +13,7 @@
         <div class="row probootstrap-gutter0 mb70">
 
             @foreach($cases as $v)
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 case-item">
                     <a href="{{ url('/case/'.$v->id) }}" class="probootstrap-hover-overlay image-block">
                         <div class="image-container">
                             <img src="{{ config('common.host.'.env('APP_ENV').'.cdn').'/'.$v->cover_pic }}" alt="Image" class="img-responsive">

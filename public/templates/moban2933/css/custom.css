@@ -1,1 +1,7 @@
 /* Your custom css code goes here */
+@media screen and (max-width:768px) {
+    #service-section .servic-item:nth-child(n+5) { display: none; }
+    #case-section .case-item { margin: 8px; }
+    #case-section .case-item:nth-child(n+5) { display: none; }
+    #coverage-section .coverage-item:nth-child(n+5) { display: none; }
+}

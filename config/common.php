@@ -12,8 +12,8 @@
             ],
 
             'online' => [
-                'root' => 'http://live8.pub',
-                'cdn' => 'http://cdn.live8.pub',
+                'root' => 'http://tinymax.cn',
+                'cdn' => 'http://cdn.tinymax.cn',
             ],
 
             'front' => [

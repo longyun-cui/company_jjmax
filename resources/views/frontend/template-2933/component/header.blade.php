@@ -2,7 +2,7 @@
 <header role="banner" class="probootstrap-header">
     <div class="container-fluid">
         <a href="{{ url('/') }}" class="probootstrap-logo">
-            <img src="{{ url('/company/images/header_logo.jpg') }}" alt="Image" style="height:80px;">
+            <img src="{{ url('/company/images/logo.jpeg') }}" alt="Image" style="height:64px;border-radius:50%;">
             <span></span>
         </a>
 
